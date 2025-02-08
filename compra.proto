@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Compra {
+  int32 id = 1;
+  string articulo = 2;
+  string vendor = 3;
+  string tipo_venta = 4;
+  string metodo_pago = 5;
+  string fecha_compra = 6;
+  string tiempo_garantia = 7;
+  string comentario = 8;
+  float calificacion = 9;
+  int32 precio = 10;
+}
