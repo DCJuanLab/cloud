@@ -9,7 +9,7 @@ struct Compra {
     5: string metodo_pago,
     6: string fecha_compra,
     7: i32 tiempo_garantia, // En días
-    8: optional string comentario,
-    9: optional double calificacion, // Escala 1-5, por ejemplo
+    8: string comentario,
+    9: i32 calificacion, // Escala 1-5, por ejemplo
     10: double precio
 }
